@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
   <head>
     <meta charset="utf-8">
-    <title>Hello World</title>
+
+    <title>Code Week</title>
+
+    <link href="static/css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="static/css/flexboxgrid.min.css" rel="stylesheet" type="text/css"/>
+
+    <script src="static/js/jquery-2.2.4.min.js" type="text/javascript" ></script>
+    <script src="static/js/main.js" type="text/javascript"></script>
   </head>
+
   <body>
-    <h1>Hello World</h1>
-    <p>This is a web page.</p>
+    <div class="main-container row">
+      <div class="col-xs-offset-1 col-xm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-10 col-xm-10 col-md-10 col-lg-10">
+        <div class="box">
+
+          <div class="header-container row">
+            <div class="col-xs-8 col-xm-8 col-md-8 col-lg-8">
+              <div class="box">
+                <h1>My Code Week Blog</h1>
+                <p>Interesting stuff about frontend development</p>
+              </div>
+            </div>
+            <div class="col-xs-4 col-xm-4 col-md-4 cold-lg-4">
+              <div class="box">
+                <div class="search-icons-container">Icons</div>
+                <div clas="search-input-container">
+                  <input type="text" name="search-input" placeholder="Search" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation-container row">
+            <div class="col-xs col-xm col-md cold-lg">
+              <div class="box">
+                <span>Home</span>
+                <span>About</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="article-container row">
+            <div class="col-xs-8 col-xm-8 col-md-8 cold-lg-8">
+              <div class="box">
+                <h2>My blog: The license</h2>
+                <div class="text-container">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+              </div>
+            </div> 
+            <div class="col-xs-4 col-xm-4 col-md-4 cold-lg-4">
+              <div class="box calendar-container">
+                <img alt="Calendar image" src="static/images/calendar.png">
+              </div>
+              <div class="technologies-container">
+                <p>.Net C#</p>
+                <p>JavaScript</p>
+                <p>CSS Mockups</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-container row">
+            <div class="col-xs col-xm col-md cold-lg">
+              <div class="box">
+                <div>Made during Code week Vratsa 2017</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </body>
 </html>

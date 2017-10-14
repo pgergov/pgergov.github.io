@@ -1,0 +1,33 @@
+.navigation-container .box {
+	border: 3px solid black;
+	padding: 10px 5px;
+}
+.navigation-container .box > span {
+	padding: 0px 30px;
+}
+
+.article-container .box {
+	margin-top: 70px;
+}
+
+.article-container .text-container {
+	border: 2px solid black;
+	padding: 15px;
+}
+.article-container .calendar-container img{
+	width: 200px;
+}
+.article-container .technologies-container {
+	padding-left: 50px;
+}
+.article-container .technologies-container p {
+	font-family: Georgia;
+	font-size: 20px;
+}
+
+.footer-container {
+	border: 1px solid silver;
+}
+.footer-container div {
+	padding: 5px;
+}

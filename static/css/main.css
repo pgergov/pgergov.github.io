@@ -32,7 +32,7 @@ body {
   font-size: 20px;
 }
 .navigation-container .box > a {
-  padding: 3px 55px;
+  padding: 3px 50px;
   text-decoration: none;
   color: black;
   box-shadow: 0 0 15px 2px silver;
@@ -53,6 +53,9 @@ body {
 }
 .calendar-container img{
   height: 300px;
+}
+.calendar-container img:hover {
+  transform: scale(1.1);
 }
 .technologies-container p {
   font-size: 28px;

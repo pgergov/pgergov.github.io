@@ -1,33 +1,50 @@
+html {
+
+}
+
+body  {
+
+}
+
+/* Header */
+.search-icons-container img {
+  height: 50px;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+/* Navigation */
 .navigation-container .box {
-	border: 3px solid black;
-	padding: 10px 5px;
+  border: 3px solid black;
+  padding: 10px 5px;
 }
 .navigation-container .box > span {
-	padding: 0px 30px;
+  padding: 0px 30px;
 }
 
-.article-container .box {
-	margin-top: 70px;
+/* Articles */
+.article-container {
+  margin-top: 300px;
+}
+.text-container {
+  border: 2px solid black;
+  padding: 15px;
+}
+.calendar-container img{
+  width: 200px;
+}
+.technologies-container {
+  padding-left: 50px;
+}
+.technologies-container p {
+  font-family: Georgia;
+  font-size: 20px;
 }
 
-.article-container .text-container {
-	border: 2px solid black;
-	padding: 15px;
-}
-.article-container .calendar-container img{
-	width: 200px;
-}
-.article-container .technologies-container {
-	padding-left: 50px;
-}
-.article-container .technologies-container p {
-	font-family: Georgia;
-	font-size: 20px;
-}
-
+/* Footer */
 .footer-container {
-	border: 1px solid silver;
+  border: 1px solid silver;
 }
 .footer-container div {
-	padding: 5px;
+  padding: 5px;
 }

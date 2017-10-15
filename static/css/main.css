@@ -32,7 +32,7 @@ body {
   font-size: 20px;
 }
 .navigation-container .box > a {
-  padding: 3px 50px;
+  padding: 3px 30px;
   text-decoration: none;
   color: black;
   box-shadow: 0 0 15px 2px silver;
